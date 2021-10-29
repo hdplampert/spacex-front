@@ -1,0 +1,43 @@
+
+.Card {
+  background-color: #ddd;
+  box-shadow: 10px 10px #0009;
+}
+
+.LaunchCard {
+  display: flex;
+  align-items: center;
+}
+
+.LaunchCard-patch {
+  width: 8rem;
+}
+
+.LaunchCard-patchContainer {
+  position: relative;
+}
+
+.LaunchCard-info {
+  margin: 0 0.8rem;
+}
+
+.LaunchCard-launchName {
+  font-size: 1.5rem;
+}
+
+.LaunchCard-launchStatusIcon {
+  font-size: 3rem;
+  position: absolute;
+  background: white;
+  border-radius: 100%;
+  display: flex;
+  bottom: 0;
+}
+
+.LaunchCard-launchStatusIcon.success {
+  color: #0ec10e;
+}
+
+.LaunchCard-launchStatusIcon.failure {
+  color: #bd0707;
+}

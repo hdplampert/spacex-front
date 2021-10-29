@@ -1,0 +1,35 @@
+
+.Table {
+  overflow: hidden;
+  white-space: nowrap;
+  background-color: #fff;
+  border-color: #000;
+}
+
+.Table th,
+.Table td {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.Table th {
+  font-weight: 600;
+}
+
+.Table button {
+  border: none;
+  background-color: inherit;
+  font-size: inherit;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.Table a {
+  font-size: 1.5rem;
+  margin: 0 5px;
+  border: none;
+  background-color: inherit;
+  text-decoration: underline;
+  cursor: pointer;
+  color: black;
+}
