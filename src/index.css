@@ -2,6 +2,10 @@
 @import "./assets/styles/_layout.css";
 @import "./assets/styles/_spinner.css";
 
+* {
+  box-sizing: border-box;
+}
+
 html, body, #root {
   height: 100%;
 }

@@ -1,0 +1,9 @@
+
+.Table td:first-child {
+  max-width: 300px;
+  white-space: initial;
+}
+
+.Table button {
+  text-align: left;
+}

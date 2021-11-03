@@ -2,15 +2,16 @@
 .Section {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   flex: 1;
-  padding-top: 40px;
+  padding: 40px;
   height: 0;
 }
 
 .Section-title {
   font-size: 3rem;
   font-weight: 500;
-  margin: auto auto auto 50px;
+  margin-right: auto;
   cursor: pointer;
   transition: font-size 0.750s;
   color: #fff;
@@ -21,8 +22,8 @@
 .Section-content {
   opacity: 0;
   overflow: auto;
-  padding-right: 20px;
-  margin: 30px auto 30px 80px;
+  padding-right: 15px;
+  margin: 30px auto 30px 30px;
   height: 0%;
   transition: opacity 1s, height 0.750s;
 }
@@ -40,7 +41,6 @@
   visibility: visible;
   opacity: 100%;
   height: 100%;
-  padding: 0 20px;
   transition: opacity 2s, height 0.750s;
 }
 
