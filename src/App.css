@@ -10,3 +10,30 @@
 .App .Section:first-of-type {
   border-bottom: 2px solid #000;
 }
+
+.App.variant {
+  flex-direction: row-reverse;
+  align-content: stretch;
+}
+
+.App.variant .Section:first-of-type {
+  border-bottom: none;
+  border-left: 2px solid #000;
+}
+
+.App.variant .Section {
+  flex-basis: 50%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.App.variant .Section-title {
+  margin: 0;
+}
+
+.App.variant .Section-content {
+  margin: 30px 0;
+  padding: 0 5px;
+}
+
